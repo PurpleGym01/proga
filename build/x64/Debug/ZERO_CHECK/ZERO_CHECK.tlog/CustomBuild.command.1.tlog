@@ -1,0 +1,10 @@
+^C:\USERS\KUBIK\SOURCE\REPOS\PROGA\BUILD\CMAKEFILES\4AF08330936BFB7C3BA9A600B79A743B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/kubik/source/repos/proga -BC:/Users/kubik/source/repos/proga/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/kubik/source/repos/proga/build/proga.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

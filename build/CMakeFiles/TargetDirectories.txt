@@ -1,0 +1,3 @@
+C:/Users/kubik/source/repos/proga/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/kubik/source/repos/proga/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/kubik/source/repos/proga/build/src/CMakeFiles/proga.dir
